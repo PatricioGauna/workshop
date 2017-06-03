@@ -1,0 +1,280 @@
+nav {
+	background-color: #2c3e50;
+}
+
+.contenedor{
+	max-width: 900px;
+	margin: auto;
+}
+
+nav .contenedor {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	font-family: "monserrat", sans-serif;
+	font-weight: 700;
+	padding: 30px 0;
+	text-transform: uppercase;
+	align-items: center;
+}
+
+.menu{
+
+	display: flex;
+	font-size: 10px;
+}
+
+.menu li{
+	margin: 0 10px;
+}
+
+.menu li:last-child{
+	margin-right: 0;
+}
+
+header{
+	background: #18bc9c;
+}
+
+header .contenedor{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 0;
+	color: white;
+	font-family: "monserrat", sans-serif;
+	
+}
+
+header .contenedor img{
+	height: 180px;
+	width: 180px;
+}
+
+h1 {
+
+	font-weight: 700;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin: 15px 0;
+}
+
+
+.estrella{
+
+    margin: 0 10px;
+    display: flex;
+    font-family: "monserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.estrella:before, .estrella:after{
+    content: "";/* Es lo que hace q el elemnto sea visible */
+    height: 3px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 5px;
+}
+
+  .dos{
+	color: navy;
+	
+
+}
+
+
+.dos:before, .dos:after{
+    content: "";/* Es lo que hace q el elemnto sea visible */
+    height: 3px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: navy;
+    margin: 0 5px;
+}
+
+
+
+header .contenedor h4{
+	margin: 15px 0;
+}
+
+.portfolio{
+	font-family: "monserrat", sans-serif;
+}
+
+.portfolio .contenedor {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+h3{
+	font-weight: 700;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 50px;
+	color: black;
+	text-align: center;
+	font-family: "monserrat", sans-serif;
+
+}
+
+.imagenes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 50px;
+
+}
+
+.imagenes img{
+	height: 200px;
+	width: 250px;
+	margin: 20px 0;
+}
+
+.about{
+	background: #18bc9c;
+	padding: 40px;
+	
+
+ }
+
+ .about .contenedor{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+
+ }
+
+
+.about h3{
+	color: white;
+
+}
+
+.about article{
+	display: flex;
+	padding: 0 170px;
+}
+
+.about  article p{
+	margin: 20px 10px;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	line-height: 130%;
+}
+
+.boton{
+	text-decoration: none;
+	display: inline-block;
+	background: #18bc9c;
+	color: white;
+	padding: 10px 30px;
+	border: 1px solid white;
+	border-radius: 4px;
+	font-family: "Open Sans" , sans-serif;
+	font-size: 12px;
+
+}
+
+.formulario .contenedor{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px;
+}
+
+form{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	font-family: "Open Sans", sans-serif;
+	color: silver;
+	font-size: 16px;
+	margin: 30px 0;
+
+}
+
+form input{
+	border: none;
+	border-bottom: 1px solid silver;
+	margin: 10px 0;
+}
+
+textarea {
+	border: none;
+	border-bottom: 1px solid silver;
+	margin: 10px 0;
+}
+
+.botonform{
+	text-decoration: none;
+	background: #18bc9c;
+	color: white;
+	padding: 10px 30px;
+	border: 1px solid white;
+	border-radius: 4px;
+	font-family: "Open Sans" , sans-serif;
+	font-size: 12px;
+	display: inline-block;
+
+}
+
+footer{
+	background-color: #2c3e50;
+}
+footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 40px;
+	flex-direction: row;
+	color: white;
+
+
+}
+
+footer .contenedor article{
+	padding: 0 40px;
+	text-align: center;
+}
+
+footer h4{
+	
+	font-family: "monserrat", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+footer article{
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+
+}
+
+.redes {
+	display: flex;
+	flex-direction: row;
+}
+.redes li{
+	width: 30px;
+	height: 30px;
+	border-radius: 250%;
+	border: 1px solid white;
+	padding: 7px 0 0 0;
+	box-sizing: border-box;
+	margin: 0 3px ;
+
+	
+}
